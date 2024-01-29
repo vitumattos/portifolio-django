@@ -4,17 +4,17 @@ Meu Portifolio como desenvolvedor
 
 ## Tarefas
 
-- Buscar Referencias, baixar e renomear com a árte que vou usar
-- Esboçar no papel e caneta como sera o site
-- Escolher um paleta de cor para identidade vizual
-- Criar uma marca pessoal
-- Criar um padrão das minhas redes sociais
-- Deixar o readme mais melhor
-- Ler um pouco de git https://www.atlassian.com/git/glossary
+- ✔️ :heavy_check_mark: Buscar Referencias, baixar e renomear com a árte que vou usar
+- ✔️ :x: Esboçar no papel e caneta como sera o site
+- ✔️ Escolher um paleta de cor para identidade visual
+- ❌ Criar uma marca pessoal
+- ❌ Criar um padrão das minhas redes sociais
+- ❌ Deixar o readme mais melhor
+- ❌ Ler um pouco de git https://www.atlassian.com/git/glossary
 
 ### O que deve ter
 
-- Uma navbar com à esquerda [home, about, services, resume, portifoli, blog, contact]
+- Uma navbar com à esquerda [home, about, services, portifoli, blog, contact]
 - Navbar com um icone da minha marca pessoal
 - **header** com uma img chamativa de fundo, boas vindas e uma breve descrição com minhas redes sociais
 - **about me**\_Com uma foto mais seria [oi eu sou o vitor grey][estudante de backend]

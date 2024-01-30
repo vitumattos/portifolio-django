@@ -2,28 +2,34 @@
 
 Meu Portifolio como desenvolvedor
 
+## To Do List
+
+- :heavy_check_mark: Ler sobre venv e utilizar no projeto
+- :heavy_check_mark: Aprender e começar a utilizar o git/github
+- :x: Aprofundar o conhecimento em bootstrap
+- :x: Criar 1 pagina html e implantar no framework django
+- :x: Fazer um PDF com meu curriculo
+- :x: Apender a utilizar o models com forms e implantar (Sujestão: Contate me)
+
 ## Tarefas
 
-- ✔️ :heavy_check_mark: Buscar Referencias, baixar e renomear com a árte que vou usar
-- ✔️ :x: Esboçar no papel e caneta como sera o site
-- ✔️ Escolher um paleta de cor para identidade visual
-- ❌ Criar uma marca pessoal
-- ❌ Criar um padrão das minhas redes sociais
-- ❌ Deixar o readme mais melhor
-- ❌ Ler um pouco de git https://www.atlassian.com/git/glossary
+- :x: Refazer o html com as boas praticas de bootstrap sem medo de usar divs e utilizar mais o meu style.css
+- :x: Criar uma Logo (</ Telch)
 
-### O que deve ter
+### TODAY
 
-- Uma navbar com à esquerda [home, about, services, portifoli, blog, contact]
-- Navbar com um icone da minha marca pessoal
-- **header** com uma img chamativa de fundo, boas vindas e uma breve descrição com minhas redes sociais
-- **about me**\_Com uma foto mais seria [oi eu sou o vitor grey][estudante de backend]
-  [breve historia da minha carreira][aniversario,telefone, email,linguas,profissao atual]
-  e btn para baixar CV
+- :x: Esboçar no paint como será as row/col/container e quais margens ou padding usarei
+- :x: Procurar um boa imagem básica de fundo e uma fonte que combine com a indetidade visual
+- :x: importar o bootstrap e a fonte da forma correta (ler a documentação) ver um video também
+- :x: Separa cada sessão do navbar em uma div e um comentário
+- :x: Fazer os "Anchor" da navbar funcionar
 
-- **services** 3 cards com uma img ou icone titulo e uma breve descrição
-- **Resume** [skills, Software skils, experience, hobbins, educação, skill pessoal]
-- **portifolio** carrosel com imgs que leve para tal
-- **BLOG?**
-- **contact** caixa de email e mensagem e uma opção de ir no zapzap
-- **Rodapé** com [navegação, follow me, contatos] Copyright
+### Desabafo do dia 29/01/2024
+
+- Baixei algumas referencias, esbocei no papel uma ideia de como quero que fique o site, Escolhi a
+  paleta de cores, alterei o user das minhas redes sociais, arrumei esse README e agora pretendo ler um pouco
+  sobre o git/github.
+- Configurei o django views, urls e static, importei o boostrap e outras coisas
+- Fiquei o dia todo tentando copiar e colar html/bootstrap e cheguei uma conclusão que é mais interresante
+  utilizar as boas praticas que eu aprendi no DBC para me auxiliar a criar um página.
+- Vou excluir o html todo kkkj :trollface:

@@ -1,0 +1,118 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+    <div class="container">
+      <a class="navbar-brand" href="#">Telch10</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="col-6">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#aboutme">About me</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Service</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link " href="#">Portifoli</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link " href="#">Blog</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link " href="#">Contate me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <div class="media">
+        <div class="col-5">
+          <img class="align-self-center m-3" src="{% static 'img/profile-pic.png' %}" alt="" width="250">
+        </div>
+        <div class="media-body col">
+          <h5 class="text-light m-3 ">Hello! Everyone</h5>
+          <h1 class="display-2 text-light m-3">I'm <span class="text-primary nome">Vitor Grey</span></h1>
+          <h5 class="text-light m-3">Backend Developer</h5>
+          <button type="button" class="btn btn-outline-info m-3">Contate me</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- SOBRE -->
+  <main class=" container #aboutme">
+    <div class="ctz-main m-5">
+      <h1 class="ctz-h1">RESUMO</h1>
+      <h2 class="ctz-h2">SOBRE MIM</h2>
+    </div>
+    <div class="row">
+      <div class="col mt-5 ">
+        <img class="align-self-center m-5 rounded" src="{% static 'img/profile-pic (2).png' %}" alt="" width="500">
+      </div>
+      <div class="col mt-5 ">
+        <div class="card m-5 bg-transparent ">
+          <div class="card-body border-0 rounded">
+            <h3 class="card-title text-light">About me</h3>
+            <p class="card-text text-light">Sou um profissional dedicado e apaixonado pela arte de transformar dados em
+              insights significativos. Minha experiência nos Fuzileiros Navais me proporcionou habilidades sólidas em
+              lidar com conjuntos complexos de dados.</p>
+            <div class="row">
+              <div class="col">
+                <p class="text-white"><span class="h6">Nome:</span> Vitor M. de S. Grey</p>
+                <p class="text-white"><span class="h6">Telefone:</span> (21) 9 9967-7281</p>
+                <p class="text-white"><span class="h6">Email:</span> vitormattos2011@gmail.com</p>
+              </div>
+              <div class="col">
+                <p class="text-white"><span class="h6">Idade:</span> 23 Anos</p>
+                <p class="text-white"><span class="h6">Telefone:</span> (21) 9 7275-4635</p>
+                <p class="text-white"><span class="h6">Frellance:</span> Available</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

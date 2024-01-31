@@ -1,40 +1,25 @@
+/* Paleta 0: #808080 / #9e9e9e / #bcbcbc / #dadada / #f8f8f8 */
+/* Paleta 1: #2dadf7 / #4ec2f9 / #6ed6fb / #8febfd / #afffff */
+/* Paleta 2: #a3e4f9 / #91d2e6 / #7ebfd3 / #6cadc0 / #599aad */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
 }
 body {
-  background: url("../img/bg-mobile.jpg") no-repeat top center/cover;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: url("../img/img-fundo2.jpg") no-repeat top center/cover;
 }
-
-.nome {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: aqua;
+#header_ {
+  background-color: #2dadf707;
+  height: 60%;
 }
-
-.ctz-main {
-  position: relative;
+#aboutme {
+  background-color: #04425252;
+  height: 100vh;
 }
-
-.ctz-h1 {
-  font-size: 80px;
-  color: grey;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.ctz-h2 {
-  font-size: 50px;
-  color: aqua;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-p {
-  color: white;
+#service {
+  background-color: #3c045252;
+  height: 50vh;
 }

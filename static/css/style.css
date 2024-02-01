@@ -12,8 +12,8 @@ body {
   background: url("../img/img-fundo2.jpg") no-repeat top center/cover;
 }
 #header_ {
-  background-color: #2dadf707;
-  height: 60%;
+  /* background-color: #2dadf707; */
+  height: 50%;
 }
 #aboutme {
   background-color: #04425252;
@@ -22,4 +22,17 @@ body {
 #service {
   background-color: #3c045252;
   height: 50vh;
+}
+#portfolio {
+  background-color: #1d520470;
+  height: 40vh;
+}
+
+#contateme {
+  background-color: #599aad;
+  height: 30vh;
+}
+
+.color1 {
+  color: #2dadf7;
 }

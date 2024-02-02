@@ -11,6 +11,7 @@
     <link rel='stylesheet prefetch' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 
@@ -81,12 +82,12 @@
         <main>
             <!-- ABOUT ME -->
             <hr>
-            <div id="aboutme">
+            <section id="aboutme">
                 <div class="container-fluid">
                     <div class="row vh-75">
                         <div class="col-4 ">
                             <div class="about-image text-center">
-                                <img src="{% static 'img/profile-pic (1).png' %}" alt='' class="img-fluid mt-2"
+                                <img src="{% static 'img/profile-pic (1).png' %}" alt='' class="img-fluid mt-3"
                                     width="300" height="300">
                             </div>
                         </div>
@@ -152,25 +153,117 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <!-- SERVICE -->
             <hr>
-            <div id="service">
-                service
+            <div class="container-fluid" id="service">
+                <div class="row centralizar mt-5 pb-5">
+                    <h1 class="title1 centralizar-a-div">SERVICE</h1>
+                    <h2 class="title2 centralizar-a-div">SERVICE</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col">
+                        <div class="card bg-transparent border-secondary mb-3" style="width: 18rem;">
+                            <i class="fa fa-bug fa-3x centralizar-a-div pt-3"></i>
+                            <div class="card-body text-secondary">
+                                <h5 class="card-title centralizar-a-div">Bot de mensagem</h5>
+                                <p class="card-text"> Potencialize a comunicação do seu comercio com o futuro dos
+                                    negócios.</p>
+                                <a href="#" class="btn btn-outline-primary centralizar-a-div">Veja sobre</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-transparent border-secondary mb-3" style="width: 18rem;">
+                            <i class="fa fa-cloud-upload fa-3x centralizar-a-div pt-3"></i>
+                            <div class="card-body text-secondary">
+                                <h5 class="card-title centralizar-a-div">Deploy de APP</h5>
+                                <p class="card-text"> Torner publico sua aplicação de forma segura e com muita
+                                    escalabilidade.
+                                </p>
+                                <a href="#" class="btn btn-outline-primary centralizar-a-div">Veja sobre</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-transparent border-secondary mb-3" style="width: 18rem;">
+                            <i class="fa fa-database fa-3x centralizar-a-div pt-3"></i>
+                            <div class="card-body text-secondary">
+                                <h5 class="card-title centralizar-a-div">Back-end Developer</h5>
+                                <p class="card-text"> Descubra o robustez e eficiência do serviço de backend no cenário
+                                    tecnológico.
+                                </p>
+                                <a href="#" class="btn btn-outline-primary centralizar-a-div">Veja sobre</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- PORTFOLIO -->
-            <div id="portfolio">
-                Portfolio
-            </div>
+            <!-- <div id="portfolio"> -->
+            <!-- Portfolio -->
+            <!-- </div> -->
             <!-- BLOG -->
-            <div id="blog">
-                Blog
-            </div>
+            <!-- <div id="blog"> -->
+            <!-- Blog -->
+            <!-- </div> -->
             <!-- CONTATE ME -->
-            <div id="contateme">
-                Contate me
-            </div>
+            <hr>
+            <footer class="site-footer" id="contateme">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <h6>About</h6>
+                            <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to
+                                help the upcoming programmers with the code. Scanfcode focuses on providing the most
+                                efficient code or snippets as the code wants to be simple. We will help programmers
+                                build up concepts in different programming languages that include C, C++, Java, HTML,
+                                CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+                        </div>
 
+                        <div class="col-xs-6 col-md-3">
+                            <h6>Redes Sociais</h6>
+                            <ul class="footer-links">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Twitter</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Github</a></li>
+                                <li><a href="#">Youtube</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-xs-6 col-md-3">
+                            <h6>Quick Links</h6>
+                            <ul class="footer-links">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#aboutme">About me</a></li>
+                                <li><a href="#service">Service</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#contateme">Contate me</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-6 col-xs-12">
+                            <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by
+                                <a href="#">Telch10</a>.
+                            </p>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <ul class="social-icons">
+                                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </main>
 
 

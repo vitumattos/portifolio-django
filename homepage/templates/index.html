@@ -8,6 +8,7 @@
 
     <title>Portifólio do Grey</title>
 
+    <link rel='stylesheet prefetch' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
@@ -79,10 +80,81 @@
         <!-- MAIN -->
         <main>
             <!-- ABOUT ME -->
+            <hr>
             <div id="aboutme">
-                about me e skill
+                <div class="container-fluid">
+                    <div class="row vh-75">
+                        <div class="col-4 ">
+                            <div class="about-image text-center">
+                                <img src="{% static 'img/profile-pic (1).png' %}" alt='' class="img-fluid mt-2"
+                                    width="300" height="300">
+                            </div>
+                        </div>
+                        <div class="col-1 pt-5">
+                            <div class="social-btns mt-3">
+                                <a class="btn facebook" href="#"><i class="fa fa-facebook"></i></a>
+                                <br>
+                                <a class="btn twitter" href="#"><i class="fa fa-twitter"></i></a>
+                                <br>
+                                <a class="btn instagram"" href=" #"><i class="fa fa-instagram"></i></a>
+                                <br>
+                                <a class="btn github" href="#"><i class="fa fa-github"></i></a>
+                                <br>
+                                <a class="btn youtube-play" href="#"><i class="fa fa-youtube-play"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-12 about-title">
+                            <div class="centralizar mt-2 pb-5 ">
+                                <h1 class="title1">ABOUT ME</h1>
+                                <h2 class="title2">ABOUT ME</h2>
+                            </div>
+                            <br>
+                            <div class="paragraph w-75">
+                                <p class="para">
+                                    I am Vitor Grey, since I was child I have a curiosity about computers and for
+                                    years, my hobby was to stay in front of a screen. I love to automate processes and
+                                    also, I enjoy when I can create solutions for some problems.
+                                </p>
+                                <div class="row border border-primary rounded div">
+                                    <h2 class="text-center">Informações Pessoais</h2>
+                                    <div class="col">
+                                        <p><span class="cor-destaque-1">Nome:</span> Vitor Grey</p>
+                                        <p><span class="cor-destaque-1">Idade:</span> 23 anos</p>
+                                        <p><span class="cor-destaque-1">Freelance:</span> Disponível</p>
+                                    </div>
+                                    <div class="col">
+                                        <p><span class="cor-destaque-1">Telefone:</span> +55 21 9 9977281</p>
+                                        <p><span class="cor-destaque-1">Email:</span> contato@vitorgrey.com</p>
+                                        <p><span class="cor-destaque-1">Idiomas:</span> Português, Inglês</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row vh-25">
+                        <div class="centralizar mt-5 pt-5 ">
+                            <h1 class="title1">MY SKILLS</h1>
+                            <h2 class="title2">MY SKILLS</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 centralizar-a-div">
+                                <img src="{% static 'img/python-icon.png' %}" alt="..." class="img-fluid m-5"
+                                    style="height: 100px;">
+                            </div>
+                            <div class="col-4 centralizar-a-div">
+                                <img src="{% static 'img/django-icon.png' %}" alt="..." class="img-fluid m-5"
+                                    style="height: 100px;">
+                            </div>
+                            <div class="col-4 centralizar-a-div">
+                                <img src="{% static 'img/postegresql-icon2.png' %}" alt="..." class="img-fluid m-5"
+                                    style="height: 100px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- SERVICE -->
+            <hr>
             <div id="service">
                 service
             </div>

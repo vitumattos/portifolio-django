@@ -16,7 +16,7 @@ body {
   height: 50%;
 }
 #aboutme {
-  background-color: #04425252;
+  /* background-color: #04425252; */
   height: 100vh;
 }
 #service {
@@ -35,4 +35,34 @@ body {
 
 .color1 {
   color: #2dadf7;
+}
+
+.centralizar {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title1 {
+  font-size: 60px;
+  color: #9797973b;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title2 {
+  font-size: 30px;
+  color: #afffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centralizar-a-div {
+  display: flex;
+  justify-content: center;
 }

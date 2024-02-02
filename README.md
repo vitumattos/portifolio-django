@@ -13,14 +13,13 @@ Meu Portifolio como desenvolvedor
 
 ## Tarefas
 
-- :heavy_check_mark: Refazer o html com as boas praticas de bootstrap sem medo de usar divs e utilizar mais o meu style.css
 - :x: Criar uma Logo (</ Telch)
 
 ### TODAY
 
-- :heavy_check_mark: Esboçar no paint como será as row/col/container o resto do programa
-- :heavy_check_mark: Terminar a header
+- :heavy_check_mark: Escrever um paragrafo descrevendo um pouco sobre mim
+- :heavy_check_mark: Fazer o aboutme
 
-### Desabafo do dia 31/01/2024
+### Desabafo do dia 01/02/2024
 
-- n/c
+- Finalizado o about me bem melhor do que eu imaginava. faltou apenas elaborar um texto e em português para subistuir.
